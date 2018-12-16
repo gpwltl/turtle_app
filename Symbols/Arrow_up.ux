@@ -1,0 +1,3 @@
+<Panel ux:Class="Arrow_up">
+	<Image File="Images/up-arrow.png" Width="90" Height="90" />
+</Panel>

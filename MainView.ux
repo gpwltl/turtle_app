@@ -1,0 +1,10 @@
+<App>
+	<Router ux:Name="router" />
+    <Navigator DefaultPath="Splash">
+    	<Splash ux:Template="Splash" router="router" Opacity="1" />
+        <HomePage ux:Template="HomePage" router="router" />
+        <Page1 ux:Template="Page1" router="router" />
+        <Page2 ux:Template="Page2" router="router" />
+        
+    </Navigator>
+</App>

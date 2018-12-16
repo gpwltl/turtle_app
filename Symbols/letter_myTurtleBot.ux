@@ -1,0 +1,3 @@
+<Panel ux:Class="letter_myTurtleBot" >
+	<Image File="Images/myturtle.png" Width="120" Height="120" />
+	</Panel>

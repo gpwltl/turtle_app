@@ -1,0 +1,3 @@
+<Panel ux:Class="letter_trafficLight" >
+	<Image File="Images/letter_trafficLight.png" Width="80" Height="80" />
+	</Panel>

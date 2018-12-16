@@ -1,0 +1,3 @@
+<Panel ux:Class="letter_Setting" >
+	<Image File="Images/setting_letter.png" Width="140" />
+	</Panel>

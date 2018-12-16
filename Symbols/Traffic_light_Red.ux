@@ -1,0 +1,3 @@
+<Panel ux:Class="Traffic_light_Red" >
+	<Image File="Images/traffic-light-red.png" Width="55" Height="55" Alignment="CenterRight" X="-80" Y="-158"  />
+	</Panel>

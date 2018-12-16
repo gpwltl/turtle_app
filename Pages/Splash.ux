@@ -1,0 +1,9 @@
+<Page ux:Class="Splash" Background="#DCE1E3" >
+<Router ux:Dependency="router" />
+	<JavaScript File="Splash.js" />
+	
+	<TurtleBot/>
+	<TurtleBot_name Clicked="{main}" />
+</Page>
+
+

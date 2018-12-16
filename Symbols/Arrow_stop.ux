@@ -1,0 +1,3 @@
+<Panel ux:Class="Arrow_stop">
+	<Image File="Images/stop.png" Width="90" Height="90" />
+</Panel>

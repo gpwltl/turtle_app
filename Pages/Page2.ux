@@ -1,0 +1,109 @@
+<Page ux:Class="Page2">
+	<Router ux:Dependency="router" />
+	<JavaScript File="Page2.js" />
+
+
+
+<!--side-->
+
+<EdgeNavigator Alignment="Default">
+		<Panel ux:Name="sidebar" Edge="Right" Width="100%" Margin="80,0,0,0" Background="#fff">
+			<Shadow ux:Name="shadow" Angle="180" Distance="8" Size="16" Color="#0000" />
+
+			<StackPanel Alignment="Top" Width="100%" Orientation="Horizontal">
+				<StackPanel Alignment="Top" Width="300" Height="50" Color="#fff">
+					<Shadow Size="3" Distance="1" />
+				<Side_setting X="35" Y="-10" />
+				<letter_Setting X="85" Y="-40" />
+			</StackPanel>
+
+
+				<StackPanel Width="50" Alignment="Left" X="-285" Y="50"> 
+
+				<Panel ux:Name="Button1Tab">
+					<SideAdd Alignment="Center">
+						<letter_myTurtleBot />
+						<Clicked>
+						<Set navigation.Active="button1" />
+					</Clicked>
+					</SideAdd>
+				</Panel>
+
+				<Panel ux:Name="Button2Tab">
+					<SideAdd Alignment="Center">
+						<letter_Turbit />
+						<Clicked>
+						<Set navigation.Active="button2" />
+					</Clicked>
+					</SideAdd>
+				</Panel>
+
+				<Panel ux:Name="Button3Tab">
+					<SideAdd Alignment="Center">
+						<letter_trafficLight />
+						<Clicked>
+						<Set navigation.Active="button3" />
+					</Clicked>
+					</SideAdd>
+				</Panel>
+
+					<SideAdd Alignment="Center" />
+					<SideAdd Alignment="Center" />
+					<SideAdd Alignment="Center" />
+					<SideAdd Alignment="Center" />
+					<SideAdd Alignment="Center" />
+				</StackPanel>
+
+			</StackPanel>
+
+			<!-- setting에서 button누르면 바뀌는 내용 --> 
+			<Page ux:Class="setting_contents2" />
+
+			<PageControl ux:Name="navigation">
+			<Page ux:Name="button1" Background="#fff">
+				
+				<setting_contents2 />
+				<Side_b1_contents />
+			</Page>
+			<Page ux:Name="button2" Background="#fff">
+				
+				<setting_contents2 />
+				<Side_b2_contents />
+			</Page>
+			<Page ux:Name="button3" Background="#fff">
+				
+				<setting_contents2 />
+				<Side_b3_contents />
+			</Page>
+		</PageControl>
+
+			
+			<ActivatingAnimation>
+				<Change shadow.Color="#0004" />
+				<Change sidebarFade.Opacity="1" />
+			</ActivatingAnimation>
+		</Panel>
+
+
+<!-- 내용 추가할 부분 -->
+<Text Value="To be continue....." Alignment="Center" />
+
+<!--다시 side-->
+<DockPanel Color="#fff">
+			<Rectangle ux:Name="sidebarFade" Layer="Overlay" Color="#0005" Opacity="0" HitTestMode="None" />
+			<StackPanel Dock="Top" Color="#C0EAB6">
+				<Shadow Size="3" Distance="1" />
+				<StatusBarBackground />
+				<Back Alignment="Left" Clicked="{goBack}" />
+				<Panel Height="20">
+					<SideButton Alignment="Right" Y="-34">
+						<Clicked>
+							<NavigateToggle Target="sidebar" />
+						</Clicked>
+					</SideButton>
+				</Panel>
+			</StackPanel>
+
+</DockPanel>
+</EdgeNavigator>
+</Page>

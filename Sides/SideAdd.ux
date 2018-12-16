@@ -1,0 +1,6 @@
+<StackPanel ux:Class="SideAdd" Width="80" Height="80" Color="#233322" Orientation="Vertical" Alignment="Left">
+	
+	<Shadow Size="5" Distance="1" />
+
+	
+</StackPanel>

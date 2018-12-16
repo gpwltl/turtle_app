@@ -1,0 +1,4 @@
+<Panel ux:Class="letter_Turtle_introduce" >
+	<Image File="Images/tur_introduce.png" Width="200" Height="200" Alignment="Right" X="-8" Y="360" >
+	</Image>
+</Panel>

@@ -1,0 +1,4 @@
+<Panel ux:Class="Button_operation" >
+	<Image File="Images/operation.png" Width="100" Height="100" Alignment="Center">
+	</Image>
+</Panel>

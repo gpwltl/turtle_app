@@ -1,0 +1,3 @@
+<Panel ux:Class="letter_Turbit" >
+	<Image File="Images/letter_turbit.png" Width="80" Height="80" />
+	</Panel>

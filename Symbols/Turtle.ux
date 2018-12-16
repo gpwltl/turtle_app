@@ -1,0 +1,4 @@
+<Panel ux:Class="Turtle" >
+	<Image File="Images/turtle.png" Width="200" Height="200" Alignment="TopRight" X="-5" Y="140">
+	</Image>
+</Panel>

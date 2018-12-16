@@ -1,0 +1,3 @@
+<Panel ux:Class="Traffic_stop" >
+	<Image File="Images/traffic_stop.png" Width="80" Height="80" Alignment="Center" X="80" Y="180" />
+	</Panel>

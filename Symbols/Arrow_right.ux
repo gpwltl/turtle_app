@@ -1,0 +1,3 @@
+<Panel ux:Class="Arrow_right">
+	<Image File="Images/right-arrow.png" Width="90" Height="90" />
+</Panel>

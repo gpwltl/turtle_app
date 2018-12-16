@@ -1,0 +1,11 @@
+<Page ux:Class="Side_b3_contents" >
+
+	<Traffic_light_Red Clicked="{Traffic_Red}" />
+	<Traffic_light_Yellow Clicked="{Traffic_Yellow}" />
+	<Traffic_light_Green Clicked="{Traffic_Green}" />
+	<Traffic_light />
+
+	<Traffic_start Clicked="{Traffic_Start}" />
+	<Traffic_stop Clicked="{Traffic_Stop}" />
+
+</Page>

@@ -1,0 +1,4 @@
+<Panel ux:Class="Side_setting">
+	<Image File="Images/setting.png" Width="30" Height="30" Alignment="Left" X="30" Y="20">
+	</Image>
+</Panel>

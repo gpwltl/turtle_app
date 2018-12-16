@@ -1,0 +1,3 @@
+<Panel ux:Class="Back">
+	<Image File="Images/back.png" Width="30" Height="30" Alignment="Default" Y="10" X="10" />
+</Panel>

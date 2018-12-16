@@ -1,0 +1,4 @@
+<Panel ux:Class="Trubit_members" >
+	<Image File="Images/turbit_member.png" Width="200" Height="200" Alignment="Right" X="-7" Y="150">
+	</Image>
+</Panel>
